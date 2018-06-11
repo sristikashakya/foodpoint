@@ -1,0 +1,20 @@
+
+$primary-font: 'Open Sans', sans-serif;  
+$secondary-font: 'Montserrat', sans-serif;  
+$main-blue: #337ab7;
+
+.navbar-header {
+  font-family: $secondary-font;
+  background-color: white;
+}
+
+.navbar-default .navbar-brand {
+  font-weight: 100; 
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: #337ab7;
+}
+
+html, body {
+  font-family: $primary-font;
+}
