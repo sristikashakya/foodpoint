@@ -6,6 +6,7 @@ $main-blue: #337ab7;
 .navbar-header {
   font-family: $secondary-font;
   background-color: white;
+  display: inline;
 }
 
 .navbar-default .navbar-brand {
@@ -13,6 +14,7 @@ $main-blue: #337ab7;
   font-size: 30px;
   letter-spacing: 2px;
   color: #337ab7;
+  display: inline;
 }
 
 html, body {
