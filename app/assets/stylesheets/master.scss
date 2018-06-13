@@ -10,13 +10,45 @@ $main-blue: #337ab7;
 }
 
 .navbar-default .navbar-brand {
-  font-weight: 100; 
+  font-weight: 1000; 
   font-size: 30px;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   color: #337ab7;
   display: inline;
 }
 
 html, body {
   font-family: $primary-font;
+}
+body {
+	background-color: #FAFAFA;
+}
+nav {
+  border-bottom: 2px solid #dbdbdb;
+  opacity: 0.5;
+  width: 2000px;
+  overflow: hidden;
+  height: 70px;
+ 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+        text-decoration: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+
 }
