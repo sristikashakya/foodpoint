@@ -17,32 +17,23 @@ $main-blue: #337ab7;
   display: inline;
 }
 
-html, body {
-  font-family: $primary-font;
-}
-body {
-	background-color: #FAFAFA;
-}
-nav {
-  border-bottom: 2px solid #dbdbdb;
-  opacity: 0.5;
-  width: 2000px;
-  overflow: hidden;
-  height: 70px;
- 
-}
+
+
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin-top: -20px;
+    padding: 22px;
     overflow: hidden;
     background-color: #333;
+    height: 76px;
+    width: 2000px;
+    opacity: 0.7;
 }
 
 li {
     float: left;
-        text-decoration: none;
+    text-decoration: none;
 }
 
 li a {
@@ -52,3 +43,25 @@ li a {
     padding: 14px 16px;
 
 }
+footer {
+	background-color: #555;
+	color: white;
+	padding: 0 0 45px;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+
+    }
+
+.log{
+	align:right;
+}
+html,body{
+	position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
