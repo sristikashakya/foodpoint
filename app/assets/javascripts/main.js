@@ -2,8 +2,8 @@ Zomato.init("54690d2d3df4125efff3dde6594981f8");
 
 $(function(){
     $.ajax({
-      url: 'https://api.zomato.com/v1/restaurant.json/773?api_key={54690d2d3df4125efff3dde6594981f8}',
-      data: {"query": "McDonald's"}
+      url: 'https://maps.googleapis.com/maps/api/place/textsearch/json?api_key={AIzaSyCEApYzDYMDbSzQ1hKxbZdVPfoeGHkLBb8}',
+      data: {"query": "restaurants+in+Sydney"}
     })
     .done(function(data){
       let htmlString = "";

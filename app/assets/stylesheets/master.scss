@@ -54,8 +54,12 @@ footer {
 
     }
 
-.log{
-	align:right;
+.social-icons{
+	margin: -1px 0;
+}
+.social-icons a{
+	color: white;
+	letter-spacing: 10px;
 }
 html,body{
 	position:fixed;
@@ -65,3 +69,20 @@ html,body{
     right:0;
 }
 
+li button{
+	
+	font-family: $secondary-font;
+	width:90px;
+	margin-left:10px;
+	background-color:#d9dde2;
+	
+
+}
+li .btn-primary:hover{
+background-color:black;
+
+}
+.icons{
+	margin-left:800px;
+	
+}
